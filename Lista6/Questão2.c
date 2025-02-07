@@ -21,6 +21,8 @@ int main(int argc, char *argv[]){
         pFunc[i](atoi(argv[1]),vet);
     }
 
+    free(vet);
+
     return 0;
 }
 
